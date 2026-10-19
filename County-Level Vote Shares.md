@@ -2,7 +2,7 @@
 title: "County-Level Vote Shares"
 date: "May 10, 2025"
 author: "Isaac Stiepleman"
-output: html_document
+output: pdf_document
 fontsize: 11pt
 geometry: margin = 1in
 ---
