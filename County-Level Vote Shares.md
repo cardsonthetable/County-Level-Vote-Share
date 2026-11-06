@@ -145,7 +145,7 @@ modeldata_24 %>%
 
 
 
-\begin{center}\includegraphics{County-Level-Vote-Shares_files/figure-latex/unnamed-chunk-3-1} \end{center}
+See `Select Demographic Features.pdf`
 
 Age Distributions: Histograms of the top 8 age/gender/race proportions demonstrated notable variance across counties. Serves as an example of the features that are most likely to drive differences in Democratic vote share.
 
@@ -236,7 +236,7 @@ ggplot(results, aes(x = k, y = Ratio)) +
 
 
 
-\begin{center}\includegraphics{County-Level-Vote-Shares_files/figure-latex/unnamed-chunk-5-1} \end{center}
+See `K-means Ratio.pdf`
 
 ``` r
 km <- kmeans(scaled_24, centers = 7)
@@ -251,7 +251,7 @@ ggplot(modeldata_24, aes(x = factor(cluster), y = dem_share)) +
 
 
 
-\begin{center}\includegraphics{County-Level-Vote-Shares_files/figure-latex/unnamed-chunk-5-2} \end{center}
+See `Vote Share by Cluster`
 
 ``` r
 #Cluster Summary
@@ -303,7 +303,7 @@ ggplot(modeldata_24, aes(x = pca1, y = pca2, color = factor(cluster))) +
 
 
 
-\begin{center}\includegraphics{County-Level-Vote-Shares_files/figure-latex/unnamed-chunk-6-1} \end{center}
+See `PCA Plot`
 
 ``` r
 #Inspect Loadings
